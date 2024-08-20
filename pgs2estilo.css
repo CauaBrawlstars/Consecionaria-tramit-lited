@@ -1,0 +1,27 @@
+.cabeça{
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.cabeçabut{
+    height:50px ;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    transition-duration: 0.4s;
+}
+.cabeçabut:hover{
+    background-color: #ffffff; /* Green */
+    color:red;
+}
+.spa{
+   text-align: center; 
+}
+.produtos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 200px;
+}
