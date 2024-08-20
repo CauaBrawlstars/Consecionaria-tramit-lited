@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Toons</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <style>
+    
+    .carrosselhos1{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
     .divNOG{
         display: flex;
     flex-direction: row;
@@ -32,21 +40,57 @@
     </article>
     <br>
     <div id="div2" style="border: solid 10px black; width: 100%; height: 750px;">
+        <div class="carrossel">
+            <div class="carrossel-real">
+                <input type="radio" name="carrossel" id="crr1" checked>
+                <input type="radio" name="carrossel" id="crr2">
+                <input type="radio" name="carrossel" id="crr3">
+                <input type="radio" name="carrossel" id="crr4">
+                
+                <div class="carrosselhos1">
+                    <div class="carrossel-plebeu">
+                        <img  src="img/batmovel.png" alt="batmovel">
+                    </div>
+             
+                    <div class="carrossel-plebeu">
+                        <img src="img/Francesco.png" alt="Francesco">
+                    </div>
+                  <br>
+                  <br>
+                    <div class="carrossel-plebeu">
+                        <img src="img/mcqueen.png" alt="Relâmpago Mcqueen">
+                    </div>
+                <br>
+                <br>
+                    <div class="carrossel-plebeu">
+                        <img src="img/titioavo.png" alt="Van do Titio Avô">
+                    </div>
+                </div>
 
+                <div class="carrossel-controles">
+                    <label class="carrossel-controlado" for="crr1"></label>
+                    <label class="carrossel-controlado" for="crr2"></label>
+                    <label class="carrossel-controlado" for="crr3"></label>
+                    <label class="carrossel-controlado" for="crr4"></label>
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
 <br>
 <div class="divNOG">
     <div class="div" id="div3" style="border: solid 10px black; width: 33%; height: 500px;">
-
+        <a href=""><img src="img/motoqueirof.png" alt=""></a>
     </div>
 
     <div class="div" id="div4" style="border: solid 10px black; width: 33%; height: 500px;">
-
+        <a href=""><img src="img/Flinstones.png" alt=""></a>
     </div>
 
     <div class="div" id="div4" style="border: solid 10px black; width: 33%; height: 500px;">
-
+        <a href=""><img src="img/Van Scooby.png" alt=""></a>
     </div>
 
 </div>
