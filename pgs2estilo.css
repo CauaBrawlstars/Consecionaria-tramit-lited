@@ -1,27 +1,91 @@
-.cabeça{
-    display: flex;
-    height: 600px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-}
-.cabeçabut{
-    height:50px ;
-    border-radius: 8px;
-    color: rgb(255, 255, 255);
-    background-color: red;
-    transition-duration: 0.4s;
-}
-.cabeçabut:hover{
-    background-color: #ffffff; /* Green */
-    color:red;
-}
-.spa{
-   text-align: center; 
+body{
+    margin: 0%;
+    background-color: snow;
 }
 .produtos{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    gap: 200px;
+list-style: none;
+display: flex;
+justify-content: space-around;
 }
+.nav1{
+    background-color: whitesmoke;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.5;
+}
+.nav1 , ul {
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 0 20px;
+    font-family: "Kanit", sans-serif;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: rgb(228, 233, 238);
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+    
+}
+li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(231, 231, 219, 0.914);
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgb(147, 147, 142);
+}
+.logo{
+padding: 10px;
+margin: 0;
+}
+.logo2{
+text-align: center;
+border-radius: 15%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  footer {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .cabe{
+    color: rgb(255, 255, 255);
+  }
+footer{
+    margin: 0;
+    position: sticky;
+    height: 100px;
+}
+.box:hover{
+    border: 2px solid black;
+    transform: 0.5;
+}
+.box{
+    margin-top: 50px;
+    padding: 10px;
+    border: 2px solid snow;
+}
+
