@@ -158,9 +158,9 @@ button{
     display: none;
     
 }
-li:hover{
+.box:hover{
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 2;
     background-color: rgba(231, 231, 219, 0.914);
 }
 button:hover{
@@ -176,8 +176,14 @@ margin: 0;
 text-align: center;
 border-radius: 15%;
 }
-footer {
-    background-color: black;
+
+  .cabe{
+    color: rgb(255, 255, 255);
+  }
+
+  footer {
+    background-color: rgb(85, 85, 85);
+    color: rgb(173, 63, 63);
     text-align: center;
     padding: 20px;
     margin-top: 50px;
@@ -185,16 +191,8 @@ footer {
 
   footer {
     text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  .cabe{
     color: rgb(255, 255, 255);
   }
-footer{
-    margin: 0;
-    position: sticky;
-    height: 100px;
-}
 .box:hover{
     border: 2px solid black;
     transform: 0.5;
@@ -216,3 +214,100 @@ footer{
   font-weight: 400;
   font-size: x-large;
 }
+
+.box:target{
+    position: fixed;
+    width: 50%;
+    top: -50px;
+    left: 25%;
+    padding: 10px;
+    border: solid 1px #333;
+    box-shadow: 0 0 25px 10% #000;
+    background-color: snow;
+
+    .bat{
+        height: 700px;
+    }
+    .dick{
+            height: 700px;
+    }
+    .flin{
+        height: 700px;
+    }
+    .francesco{
+        height: 700px;
+    }
+    .hamburguer{
+        height: 700px;
+    }
+    .mcqueen{
+        height: 700px;
+    }
+    .penelope{
+        height: 700px;
+    }
+    .tron{
+        height: 700px;
+    }
+
+    .nomes{
+        font-size:46px;
+    }
+}
+.nomes{
+    display: block;
+}
+
+.bat{
+    height: 350px;
+    display: block;
+}
+.dick{
+    height: 350px;
+    display: block;
+}
+.flin{
+    height: 350px;
+    display: block;
+}
+.francesco{
+    height: 350px;
+    display: block;
+}
+.hamburguer{
+    height: 350px;
+    display: block;
+}
+.mcqueen{
+    height: 350px;
+    display: block;
+}
+.penelope{
+    height: 350px;
+    display: block;
+}
+.tron{
+    height: 350px;
+    display: block;
+}
+    .fodinha{
+        background-color: transparent; /* Remove o fundo do botão */
+    border: none; /* Remove a borda padrão */
+    color: red; /* Cor do texto (X) */
+    font-size: 24px; /* Tamanho do texto */
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Aparece como um cursor de ponteiro */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 50%; /* Botão redondo */
+    width: 40px; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+    text-align: center; /* Centraliza o texto */
+    line-height: 1; /* Ajusta o alinhamento vertical do texto */
+    transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+    }
+    .fodinha:hover{
+        background-color: rgba(255, 0, 0, 0.1); /* Cor de fundo ao passar o mouse */
+    }
+    .fodinha:focus{
+        outline: none; /* Remove o contorno padrão ao focar */
+    }
