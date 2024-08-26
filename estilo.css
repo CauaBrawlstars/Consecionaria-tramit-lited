@@ -18,7 +18,7 @@ body{
 
 
 div{
-    width: 100%;
+    width: 99%;
 }
 
 
@@ -145,8 +145,8 @@ margin-top: -2%;
 }
 
 .carrossel {
-    height: 704px;
-   width: 716px;
+    height: 730spx;
+   width: 720px;
    display: flex;
     overflow: hidden;
     position: absolute; 
@@ -200,8 +200,8 @@ input{
 }
 .carrosselhos1{
     display: flex;
-    flex-wrap: row;
-    justify-content: space-between;
+    gap: 8px;
+    
 }
 .carrossel-plebeu{
     width: 100%;
@@ -209,7 +209,7 @@ input{
 
 }
 .carrossel-plebeu  img{
-    
+
     border-radius: 20px;
     width: 716px;
     height: 700px;
@@ -223,17 +223,17 @@ input{
 }
 
 #crr2:checked ~ .carrosselhos1{
-    transform: translateX(-100%);
+    transform: translateX(-101%);
     transition: 0.6s;
 }
 
 #crr3:checked ~ .carrosselhos1{
-    transform: translateX(-200%);
+    transform: translateX(-203%);
     transition: 0.6s;
 }
 
 #crr4:checked ~ .carrosselhos1{
-    transform: translateX(-300%);
+    transform: translateX(-305.2%);
     transition: 0.6s;
 }
 
