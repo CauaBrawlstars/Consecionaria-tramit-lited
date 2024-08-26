@@ -3,23 +3,10 @@
 
 html{
     font-family: "Kanit", sans-serif;  
-    width: 100%;
+    
 }
 
 
-
-
-
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-
-div{
-    width: 99%;
-}
 
 
 .cabeçalho{
@@ -263,7 +250,7 @@ justify-content: space-between;
 }
 
 .div:hover{
-    transform: scale(1.1);
+    transform: scale(1.03);
     transition: 0.5s;
 }
 
@@ -304,6 +291,7 @@ color: red;
     font-size: 30px;
 }
 footer {
+    width: 98%;
     background-color: #F5F5F5;
    
 }
@@ -396,6 +384,7 @@ footer {
 }
 
 footer {
+    
     background-color: rgb(85, 85, 85);
     color: rgb(173, 63, 63);
     text-align: center;
