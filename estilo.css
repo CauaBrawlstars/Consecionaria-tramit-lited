@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+html{
+    font-family: "Kanit", sans-serif;  
+    width: 100%;
+}
+
+
+
+
 
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 
@@ -128,14 +140,18 @@ div{
     margin-right: 5px;
 }
 
+.seta{
+margin-top: -2%;
+}
+
 .carrossel {
     height: 704px;
    width: 716px;
    display: flex;
     overflow: hidden;
     position: absolute; 
-    left: 32%;
-    top: 15%;
+    left: 32.2%;
+    top: 25%;
 transform: translate(-4%, 4%);
     
 }
@@ -220,18 +236,76 @@ input{
     transform: translateX(-300%);
     transition: 0.6s;
 }
+
+.linkado{
+ text-decoration: none;
+ color: black;
+}
+
 .divNOG img{
 height: 500px;
 width: 500px;
+border-radius: 20px;
 
 }
+
+.divNOG{
+        
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.div:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.Logo-meio{
+text-align: center;
+    
+}
+
+.texto_veiculos{
+    position: relative;
+    top: -10px;
+    z-index: 1;
+}
+
+.dick{
+
+    position: relative;
+}
+
+.dick:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.escrita{
+font-family:"Archivo Black", sans-serif;;
+z-index: 1;
+font-size: 40px;
+display: flex;
+position: absolute;
+left: 35%;
+top:230%;
+color: red;
+}
+
 .tabela{
     
     font-size: 30px;
 }
 footer {
     background-color: #F5F5F5;
-    padding: 20px 0;
+   
 }
 
 .info {
@@ -250,6 +324,21 @@ footer {
 
 .infologo img {
     max-width: 140px;
+}
+
+.nome{
+    z-index: 1;
+    font-size: 40px;
+    position: relative;
+    top: -105%;
+}
+
+.nome:hover{
+    
+    font-size: 50px;
+    color: red;
+    transition: 0.7s;
+    
 }
 
 .infologo p {
