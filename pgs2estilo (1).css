@@ -291,23 +291,23 @@ border-radius: 15%;
     display: block;
 }
     .fodinha{
-        background-color: transparent; /* Remove o fundo do botão */
-    border: none; /* Remove a borda padrão */
-    color: red; /* Cor do texto (X) */
-    font-size: 24px; /* Tamanho do texto */
-    font-weight: bold; /* Peso da fonte */
-    cursor: pointer; /* Aparece como um cursor de ponteiro */
-    padding: 10px; /* Espaçamento interno */
-    border-radius: 50%; /* Botão redondo */
-    width: 40px; /* Largura do botão */
-    height: 40px; /* Altura do botão */
-    text-align: center; /* Centraliza o texto */
-    line-height: 1; /* Ajusta o alinhamento vertical do texto */
-    transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+        background-color: transparent; 
+    border: none;
+    color: red;
+    font-size: 24px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+    text-align: center; 
+    line-height: 1; 
+    transition: background-color 0.3s, color 0.3s;
     }
     .fodinha:hover{
-        background-color: rgba(255, 0, 0, 0.1); /* Cor de fundo ao passar o mouse */
+        background-color: rgba(255, 0, 0, 0.1);
     }
     .fodinha:focus{
-        outline: none; /* Remove o contorno padrão ao focar */
+        outline: none;
     }
