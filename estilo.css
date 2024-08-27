@@ -6,6 +6,11 @@ html{
     
 }
 
+body{
+    margin: 0%;
+    background-color: whitesmoke;
+}
+
 
 
 
@@ -16,7 +21,7 @@ html{
     flex-wrap: wrap;
     justify-content: space-between;
     border-bottom: solid 2px red;
-    background-color: whitesmoke;
+    background-color: snow;
 }
 
 .logo{
@@ -127,9 +132,6 @@ html{
     margin-right: 5px;
 }
 
-.seta{
-margin-top: -2%;
-}
 
 .carrossel {
     height: 730spx;
@@ -210,17 +212,17 @@ input{
 }
 
 #crr2:checked ~ .carrosselhos1{
-    transform: translateX(-101%);
+    transform: translateX(-25%);
     transition: 0.6s;
 }
 
 #crr3:checked ~ .carrosselhos1{
-    transform: translateX(-203%);
+    transform: translateX(-50%);
     transition: 0.6s;
 }
 
 #crr4:checked ~ .carrosselhos1{
-    transform: translateX(-305.2%);
+    transform: translateX(-75.3%);
     transition: 0.6s;
 }
 
@@ -396,7 +398,10 @@ footer {
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
-    footer img{
-        width: 100px;
 
-    }
+  footer {
+    margin: 0;
+    position: sticky;
+    height: 100px;
+    width: 97.88%;
+}
