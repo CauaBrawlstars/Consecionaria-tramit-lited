@@ -316,3 +316,22 @@ border-radius: 15%;
     .fodinha:focus{
         outline: none;
     }
+
+    /* Estilo para o <h3> transformado em botão de comprar */
+.botaocomprar {
+    display: inline-block; /* Permite ajuste de padding */
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor da letra branca */
+    padding: 10px 20px; /* Espaçamento interno para parecer um botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mãozinha */
+    transition: background-color 0.3s ease; /* Transição suave para o efeito hover */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+/* Efeito hover para o <h3> transformado em botão */
+.botaocomprar:hover {
+    background-color: darkred; /* Muda para um tom mais escuro de vermelho ao passar o mouse */
+}

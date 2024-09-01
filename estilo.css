@@ -1,20 +1,17 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
-html{
-    font-family: "Kanit", sans-serif;  
-    
+html {
+    font-family: "Kanit", sans-serif;
 }
 
-body{
+body {
     margin: 0%;
     background-color: whitesmoke;
 }
 
-
-
-
-.cabeçalho{
+.cabeçalho {
     display: flex;
     align-items: center;
     height: 100px;
@@ -24,12 +21,12 @@ body{
     background-color: snow;
 }
 
-.logo{
-    width: 350px ;
-        margin: 0 auto;
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
+.logo {
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menuButton {
@@ -60,7 +57,7 @@ body{
     position: absolute;
     top: 6px;
     left: 10px;
-    opacity: 0;     
+    opacity: 0;
     visibility: hidden;
     transition: left 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
     display: inline-block;
@@ -118,7 +115,7 @@ body{
 
 .casa {
     margin-right: 5px;
-    width: 18px; 
+    width: 18px;
 }
 
 .carro {
@@ -132,170 +129,152 @@ body{
     margin-right: 5px;
 }
 
-
 .carrossel {
-    height: 730spx;
-   width: 720px;
-   display: flex;
+    height: 730px;
+    width: 720px;
+    display: flex;
     overflow: hidden;
-    position: absolute; 
+    position: absolute;
     left: 32.2%;
     top: 25%;
-transform: translate(-4%, 4%);
-    
+    transform: translate(-4%, 4%);
 }
 
-.carrossel-controles{
-    position: absolute ;
+.carrossel-controles {
+    position: absolute;
     top: 670px;
     left: 39%;
     transform: translate(0%, -20%);
     display: flex;
-    
-    
-    
-    
-    
 }
 
-
-
-.carrossel-controlado{
+.carrossel-controlado {
     display: flex;
     width: 20px;
     height: 20px;
-    border: solid 2px  rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
     margin: 6px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.4s;
-    
 }
 
-.carrossel-controlado:hover{
+.carrossel-controlado:hover {
     background-color: black;
-
 }
 
-input{
+input {
     display: none;
 }
 
-.carrossel-real{
+.carrossel-real {
     display: flex;
     width: 100%;
     height: 100%;
-
 }
-.carrosselhos1{
+
+.carrosselhos1 {
     display: flex;
     gap: 8px;
-    
 }
-.carrossel-plebeu{
+
+.carrossel-plebeu {
     width: 100%;
     transition: 0.5s;
-
 }
-.carrossel-plebeu  img{
 
+.carrossel-plebeu img {
     border-radius: 20px;
     width: 716px;
     height: 700px;
-    
 }
 
-
-#crr1:checked ~ .carrosselhos1{
-   transform: translateX(0%);
-   transition: 0.6s;
+#crr1:checked ~ .carrosselhos1 {
+    transform: translateX(0%);
+    transition: 0.6s;
 }
 
-#crr2:checked ~ .carrosselhos1{
+#crr2:checked ~ .carrosselhos1 {
     transform: translateX(-25%);
     transition: 0.6s;
 }
 
-#crr3:checked ~ .carrosselhos1{
+#crr3:checked ~ .carrosselhos1 {
     transform: translateX(-50%);
     transition: 0.6s;
 }
 
-#crr4:checked ~ .carrosselhos1{
+#crr4:checked ~ .carrosselhos1 {
     transform: translateX(-75.3%);
     transition: 0.6s;
 }
 
-.linkado{
- text-decoration: none;
- color: black;
+.linkado {
+    text-decoration: none;
+    color: black;
 }
 
-.divNOG img{
-height: 500px;
-width: 500px;
-border-radius: 20px;
-
+.divNOG img {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
 }
 
-.divNOG{
-        
+.divNOG {
+    text-align: center;
     display: flex;
-flex-direction: row;
-justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.div5{
+.div5 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.div:hover{
+.div:hover {
     transform: scale(1.03);
     transition: 0.5s;
 }
 
-.Logo-meio{
-text-align: center;
-    
+.Logo-meio {
+    text-align: center;
 }
 
-.texto_veiculos{
+.texto_veiculos {
     position: relative;
     top: -10px;
     z-index: 1;
 }
 
-.dick{
-
+.dick {
     position: relative;
 }
 
-.dick:hover{
+.dick:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
 
-.escrita{
-font-family:"Archivo Black", sans-serif;;
-z-index: 1;
-font-size: 40px;
-display: flex;
-position: absolute;
-left: 35%;
-top:230%;
-color: red;
+.escrita {
+    font-family: "Archivo Black", sans-serif;
+    z-index: 1;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 230%;
+    color: red;
 }
 
-.tabela{
-    
+.tabela {
     font-size: 30px;
 }
+
 footer {
     width: 88%;
     background-color: #F5F5F5;
-   
 }
 
 .info {
@@ -316,19 +295,17 @@ footer {
     max-width: 140px;
 }
 
-.nome{
+.nome {
     z-index: 1;
     font-size: 40px;
     position: relative;
     top: -105%;
 }
 
-.nome:hover{
-    
+.nome:hover {
     font-size: 50px;
     color: red;
     transition: 0.7s;
-    
 }
 
 .infologo p {
@@ -386,25 +363,99 @@ footer {
 }
 
 footer {
-    
     background-color: rgb(85, 85, 85);
     color: rgb(173, 63, 63);
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-  }
+}
 
-  footer {
+footer {
     text-decoration: none;
     color: rgb(255, 255, 255);
-  }
+}
 
-  footer {
+footer {
     margin: 0;
     position: sticky;
     height: 50px;
     width: 97.88%;
 }
-footer img{
+
+footer img {
     width: 100px;
+}
+
+.welcome-text {
+    font-size: 55px;
+    text-align: center;
+    color: #2b2a2a;
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.CarToonss{
+    color: #E2001A;
+}
+
+.texto_veiculos {
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px;
+    color: #2b2a2a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.carrossel-container {
+    width: 99%;
+    height: 750px;
+}
+
+#div3 {
+    padding-left: 20px;
+    width: 30%;
+    height: 500px;
+}
+
+#div3 img {
+    width: 100%;
+}
+
+#div4 {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 30%;
+    height: 500px;
+}
+
+#div4 img {
+    width: 100%;
+}
+
+.Logo-meio {
+    border: outset 2px black;
+    width: 70%;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.Logo-meio img {
+    width: 70%;
+}
+
+.seguro{
+    color: #E2001A;
+}
+
+.product-text {
+    text-align: center;
+}
+
+.branco{
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: white
 }
