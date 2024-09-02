@@ -128,7 +128,7 @@ body {
     margin-right: 5px;
 }
 
-.welcome-text {
+.textotop {
     font-size: 55px;
     text-align: center;
     color: #2b2a2a;
@@ -145,14 +145,14 @@ body {
     padding: 0;
 }
 
-.form-wrapper {
+.formularios {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
 }
 
-.form-container {
+.formulario {
     background-color: #ffffff;
     padding: 30px;
     border-radius: 12px;
@@ -302,4 +302,23 @@ p {
     font-family: "Kanit", sans-serif;
     font-size: 20px;
     font-weight: 500;
+}
+
+footer {
+    background-color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin: 0;
+    position: sticky;
+    height: 50px;
+    width: 97.88%;
+}
+
+
+.branco{
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: white
 }

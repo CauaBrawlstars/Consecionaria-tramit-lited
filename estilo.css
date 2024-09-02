@@ -364,27 +364,20 @@ footer {
 
 footer {
     background-color: rgb(85, 85, 85);
-    color: rgb(173, 63, 63);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-}
-
-footer {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-footer {
     margin: 0;
     position: sticky;
     height: 50px;
     width: 97.88%;
 }
 
-footer img {
-    width: 100px;
-}
+
+
+
+
 
 .welcome-text {
     font-size: 55px;
