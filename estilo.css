@@ -272,6 +272,12 @@ input {
     font-size: 30px;
 }
 
+.product-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+}
+
 footer {
     width: 88%;
     background-color: #F5F5F5;
@@ -373,11 +379,6 @@ footer {
     height: 50px;
     width: 97.88%;
 }
-
-
-
-
-
 
 .welcome-text {
     font-size: 55px;
